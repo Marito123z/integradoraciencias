@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoción de Lugares Turísticos - Apopa City</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button onclick="scrollToSection('destinos')">Destinos</button>
+            <button onclick="scrollToSection('mapa')">Mapa</button>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <div class="intro-left">
+            <h1>APOPA CITY</h1>
+        </div>
+        <div class="intro-right">
+            <div class="carousel">
+                <img id="carousel-image" src="img/Plazamundo2.jpg" alt="Imagen 1">
+                <button class="carousel-btn left" onclick="changeImage(-1)">&#10094;</button>
+                <button class="carousel-btn right" onclick="changeImage(1)">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinos">
+        <h1 class ="PrimeraLinea"style="text-align:center; margin: 80px 0;">Nuestros Destinos Favoritos de APOPA !</h1>
+        <div class="container">
+            <div class="card">
+                <img src="img/Plazamundo2.jpg" alt="Plaza Mundo" class="fade-in">
+                <div class="card-content">
+                    <h2>Plaza Mundo</h2>
+                    <p>Plaza Mundo es el lugar ideal para disfrutar de un día en familia o con amigos. <div></div>
+                        Explora nuestras tiendas de moda, déjate seducir por la deliciosa gastronomía 
+                        de nuestros restaurantes y vive momentos inolvidables en nuestras áreas de 
+                        recreación. <div></div> <br>Ya sea que busques un lugar para hacer compras, disfrutar de un 
+                        buen café o simplemente relajarte, Plaza Mundo tiene algo para todos.</p>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31511.74637980909!2d-89.20979640404506!3d13.721573599755272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6343e1d181f09b%3A0x59ac1e6b40420555!2sPlaza%20Mundo%20Apopa!5e0!3m2!1ses-419!2ssv!4v1638489485630!5m2!1ses-419!2ssv">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/logoapopa.jpg" alt="Parque Noé Canjura" class="fade-in">
+                <div class="card-content">
+                    <h2>Parque Noé Canjura</h2>
+                    <p>Escapa del bullicio de la ciudad y sumérgete en la tranquilidad del Parque de Apopa. <div></div> 
+                        Con impresionantes senderos rodeados de exuberante vegetación, este es el lugar 
+                        perfecto para disfrutar de un día en la naturaleza. <div></div> <br> Ya sea que busques un lugar 
+                        para hacer un picnic con la familia, caminar entre árboles centenarios o simplemente 
+                        relajarte al aire libre, el Parque de Apopa tiene algo para cada visitante.</p>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31511.74637980909!2d-89.21210024044252!3d13.72453979899257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6343e1917f159%3A0x7d0b3e8f9c6e7da9!2sParque%20de%20Apopa!5e0!3m2!1ses-419!2ssv!4v1638489495630!5m2!1ses-419!2ssv">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Periplaza.jpg" alt="Peri Plaza" class="fade-in">
+                <div class="card-content">
+                    <h2>Peri Plaza</h2>
+                    <p>Te invitamos a explorar Peri Plaza, el destino perfecto para disfrutar 
+                        de un día inolvidable. <div></div>Con una amplia variedad de tiendas, boutiques y 
+                        deliciosos restaurantes, hay algo para todos los gustos. <div></div> <br>No pierdas la 
+                        oportunidad de vivir esta experiencia única. ¡Ven y descubre por qué 
+                        Peri Plaza es el lugar favorito de todos!</p>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31511.89822349514!2d-89.22311150516465!3d13.72689729131392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6343e22b55a2b%3A0x2e1e1f0c0c4f0a!2sPeri%20Plaza!5e0!3m2!1ses-419!2ssv!4v1638489511234!5m2!1ses-419!2ssv">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Fila 3 - 6 -->
+            <div class="card">
+                <img src="img/GasolineraPuma.jpg" alt="Gasolinera Puma" class="fade-in">
+                <div class="card-content">
+                    <h2>Gasolinera Puma</h2>
+                    <p> Te invitamos a conocer la Gasolinera Puma en Apopa, 
+                        donde tu viaje comienza con un servicio excepcional y atención personalizada. 
+                        <div></div> No solo ofrecemos combustible de alta calidad, 
+                        sino también un espacio limpio y seguro para que te detengas y 
+                        recargues energías. Disfruta de nuestras tiendas de conveniencia,
+                         donde encontrarás todo lo que necesitas, desde snacks hasta bebidas refrescantes.
+                         <div></div>  <br> Además, contamos con un servicio rápido y eficiente para que sigas tu camino sin demoras. ¡Ven y vive la experiencia Puma, donde cuidar de ti y de tu vehículo es nuestra prioridad!</p>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31511.89012121096!2d-89.224022040165!3d13.726643891792847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6343e11a4c81b%3A0x9d2e5f8e4f85e13a!2sGasolinera%20Puma!5e0!3m2!1ses-419!2ssv!4v1638489521234!5m2!1ses-419!2ssv">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Polideportivo.jpg" alt="Plaza Mundo 3" class="fade-in">
+                <div class="card-content">
+                    <h2> Polideportivo Apopa</h2>
+                    <p>Descubre el Polideportivo de Apopa, un espacio ideal para disfrutar de 
+                        actividades deportivas y recreativas en un ambiente familiar. <div></div>
+                         Con instalaciones modernas y diversas opciones para practicar tu deporte 
+                         favorito, desde fútbol hasta natación, este es el lugar perfecto para
+                          mantenerte activo y saludable.
+                          <div></div> <br> Además, cuenta con áreas verdes y zonas
+                           de descanso para que puedas relajarte y disfrutar con amigos y familiares. 
+                           ¡No pierdas la oportunidad de formar parte de nuestra comunidad y vivir
+                            momentos inolvidables en el Polideportivo de Apopa!
+
+                    </p>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31511.74637980909!2d-89.20979640404506!3d13.721573599755272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6343e1d181f09b%3A0x59ac1e6b40420555!2sPlaza%20Mundo%20Apopa!5e0!3m2!1ses-419!2ssv!4v1638489485630!5m2!1ses-419!2ssv">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/CasadeLaJuventud.jpg" alt="Peri Plaza" class="fade-in">
+                <div class="card-content">
+                    <h2> Casa de La Juventud</h2>
+                    <p>¡Descubre un espacio lleno de oportunidades en la Casa de la Juventud de Apopa! <div></div>
+                         Te invitamos a unirte a nosotros, donde la creatividad y el aprendizaje se encuentran. 
+                         Este es un lugar diseñado especialmente para jóvenes como tú, donde puedes participar
+                          en talleres, actividades deportivas y eventos culturales que fomentan el desarrollo
+                           personal y comunitario. Conoce a otros jóvenes, comparte tus ideas y proyectos,
+                            y sé parte de una comunidad vibrante que impulsa el cambio. 
+                            <div></div>  <br>¡No te pierdas la oportunidad de crecer, aprender y divertirte en la Casa de la Juventud de Apopa!</p>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31511.89822349514!2d-89.22311150516465!3d13.72689729131392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6343e22b55a2b%3A0x2e1e1f0c0c4f0a!2sPeri%20Plaza!5e0!3m2!1ses-419!2ssv!4v1638489511234!5m2!1ses-419!2ssv">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <footer id="contacto">
+        <div class="despedida">
+        <h2> El Salvador / Apopa</h2>
+        <p> Nuestros lugares turísticos son más que simples destinos; 
+            son parte de nuestra identidad y herencia. Cada montaña, playa, parque 
+            y monumento cuenta una historia que merece ser preservada. <div></div>Al visita
+            r estos lugares, no solo disfrutamos de su belleza, sino que también
+             asumimos la responsabilidad de protegerlos para las futuras generaciones.
+            Te invitamos a ser un turista consciente y un ciudadano 
+            comprometido. Respeta las normas de cada lugar, no dejes basura y 
+            evita dañar la flora y fauna. <div></div> <br>Participa en actividades de limpieza y
+             conservación. Cada pequeño gesto cuenta y puede marcar la diferencia.
+            Recuerda que al cuidar nuestros espacios, también estamos cuidando
+             nuestra cultura, nuestro entorno y, sobre todo, nuestro hogar. 
+             <div></div> <br>
+             ¡Juntos podemos mantener la belleza de nuestros destinos y 
+             hacer de ellos un lugar donde todos podamos disfrutar en armonía! </p> </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
